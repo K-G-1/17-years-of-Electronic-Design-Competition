@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: K.G.   , defghj, LIC=HF856-DL42E-QIF5M-XYDPF-MD3AB-KYKEZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\单片机程序\32F4\电赛\最终版\换转接板 - 256-128 跟踪提物 - 第三点\LCD&OV7725\USER\LCD.uvprojx
+Project File Date:  08/07/2017
+
+<h2>Output:</h2>
+Build target 'LCD'
+compiling ov7725.c...
+compiling main.c...
+main.c(47): warning:  #177-D: variable "lcd_id" was declared but never referenced
+        u8 lcd_id[12];                          //存放LCD ID字符串
+main.c: 1 warning, 0 errors
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling led.c...
+compiling lcd.c...
+compiling sccb.c...
+compiling PID_out.c...
+PID_out.c(33): warning:  #177-D: variable "j" was declared but never referenced
+        int i,j;
+PID_out.c(136): warning:  #940-D: missing return statement at end of non-void function "flight_PID"
+  }
+PID_out.c(76): warning:  #177-D: variable "angle" was declared but never referenced
+        double angle=0;
+PID_out.c(169): warning:  #940-D: missing return statement at end of non-void function "Camera_PID_Ctrl"
+  }
+PID_out.c(175): warning:  #177-D: variable "i" was declared but never referenced
+        static u8 i,k;
+PID_out.c(175): warning:  #177-D: variable "k" was declared but never referenced
+        static u8 i,k;
+PID_out.c(176): warning:  #177-D: variable "ccd_fifter" was declared but never referenced
+        static int ccd_fifter[10];
+PID_out.c(177): warning:  #177-D: variable "sum" was declared but never referenced
+        int sum =0;
+PID_out.c(191): warning:  #177-D: variable "j" was declared but never referenced
+        int i,j;
+PID_out.c(192): warning:  #177-D: variable "turn_flag" was declared but never referenced
+        static int turn_flag=0;
+PID_out.c: 10 warnings, 0 errors
+compiling oled.c...
+..\HARDWARE\oled\oled.c(172): warning:  #177-D: variable "j" was declared but never referenced
+        unsigned int j=0;
+..\HARDWARE\oled\oled.c(173): warning:  #177-D: variable "y" was declared but never referenced
+        unsigned char x,y;
+..\HARDWARE\oled\oled.c: 2 warnings, 0 errors
+compiling i2c_soft.c...
+compiling timer3.c...
+compiling image.c...
+..\HARDWARE\image.c(42): warning:  #550-D: variable "k" was set but never used
+        int k=0,V_count=0;
+..\HARDWARE\image.c(42): warning:  #177-D: variable "V_count" was declared but never referenced
+        int k=0,V_count=0;
+..\HARDWARE\image.c(43): warning:  #177-D: variable "Camera_Data_old" was declared but never referenced
+        uint16_t Camera_Data,Camera_Data_old;
+..\HARDWARE\image.c(270): warning:  #940-D: missing return statement at end of non-void function "flight_data"
+  }
+..\HARDWARE\image.c(286): warning:  #177-D: variable "j" was declared but never referenced
+        static u8 j=0;
+..\HARDWARE\image.c(289): warning:  #177-D: variable "left_flag" was declared but never referenced
+        u8 left_flag=0,right_flag=0;
+..\HARDWARE\image.c(289): warning:  #177-D: variable "right_flag" was declared but never referenced
+        u8 left_flag=0,right_flag=0;
+..\HARDWARE\image.c: 7 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+assembling startup_stm32f40_41xxx.s...
+compiling misc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_tim.c...
+linking...
+Program Size: Code=38946 RO-data=8646 RW-data=284 ZI-data=97084  
+FromELF: creating hex file...
+"..\OBJ\LCD.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\单片机程序\32F4\电赛\最终版\换转接板 - 256-128 跟踪提物 - 第三点\LCD&OV7725\USER\RTE
+  E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
